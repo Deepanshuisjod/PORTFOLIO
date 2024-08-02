@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+BE+VLG:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+   background-color: rgb(190, 186, 186);
+    width: 44vw;
+    height: 100vh;
+    font-family: "Noto Serif", serif;
+    text-align: center;
+}
+
+.sidebar nav {
+    padding: 45px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 17px;
+    padding: 21px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+   /* background-color: yellow;*/
+    width: 80vw;
+}
+
+.container {
+    display: flex;
+}
+
+.infocontainer {
+  /*  background-color: rgb(73, 95, 19);*/
+    height: 60vh;
+    width: 70vw;
+    margin: 137px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devinfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hello {
+    font-size: 60px;
+    font-family: "Source Code Pro", monospace;
+    margin-left: 10px;
+}
+
+.name {
+    font-size: 45px;
+    font-weight: bold;
+    font-family: "Noto Serif", serif;
+    margin-left: 10px;
+}
+
+.about {
+    font-size: 30px;
+    font-family: "Source Code Pro", monospace;
+    margin-left: 10px;
+}
+.moreabout{
+    font-size: 20px;
+    font-family: "Noto Serif", serif;
+    margin-top: 23px;
+    margin-left: 10px;
+}
+.buttons{
+    margin-top: 34px;
+}
+
+.btn {
+    padding: 11px 14px;
+    border-radius: 30px;
+    background-color: #548989;
+    color: rgb(252, 247, 247);
+    font-weight: bold;
+    margin: 0px 3px;
+    cursor: pointer;
+
+}
+.btn-sn{
+    font-size: 12px;
+    margin-right: 500px;
+    margin-top: 15px;
+}
+
+.btn:hover{
+    color: #58b6b6;
+    background-color: rgb(252, 247, 247);
+}
+
+.devpic img {
+    height: 60vh;
+}
+.contactform{
+    font-family: "Noto Serif", serif;
+    padding :0 24px;
+    padding-top: 30px;
+}
+
+
+.contactform h1{
+    font-family: "Source Code Pro", monospace;
+    text-align: center;
+}
+.contactform form div{
+    padding: 3px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+    width:26vw;
+    border-radius: 5px;
+    margin: 6px 0;
+    padding: 3px;
+
+}
+
+#emailHelp{
+    font-size: 12px;
+    color: rgb(171, 26, 18);
+    margin: 0 5px;
+    display: flex;
+    flex-direction: column;
+}
+.form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width:15px;
+    margin: 3px 0;
+}
+.blogitem {
+    margin:20px;
+    font-family: "Noto Serif", serif;
+}
+h1{
+    font-family: "Source Code Pro", monospace;
+    margin: 20px;
+}
+p{
+    font-family: "Noto Serif", serif;
+    font-size: 12px;
+}
+.intro h2{
+    font-family: "Source Code Pro", monospace;
+    margin:12px;
+    font-size: 40px;
+}
+.intro p{
+    font-family: "Noto Serif", serif;
+    margin:12px;
+    font-size: 12px;
+}
+.skill{
+    width: 300px;
+    height: 25px;
+    background-color: rgb(153, 74, 74);
+}
+.skilll{
+    width: 230px;
+    height: 25px;
+    background-color: rgb(67, 41, 94);
+}
+.skillll{
+    width: 190px;
+    height: 25px;
+    background-color: rgb(88, 96, 72);
+}
+.skilllll{
+    width: 250px;
+    height: 25px;
+    background-color: rgb(91, 56, 86);
+}
+.skillllll{
+    width: 230px;
+    height: 25px;
+    background-color: rgb(170, 183, 96);
+}
+.skilllllll{
+    width: 180px;
+    height: 25px;
+    background-color: rgb(44, 67, 71);
+}
+.skillllllll{
+    width: 200px;
+    height: 25px;
+    background-color: rgb(59, 56, 57);
+}
+.maker{
+    margin: 30px;
+}
+.maker h1{
+    font-family: "Source Code Pro", monospace;
+    margin:12px;
+    font-size: 40px;
+}
+.maker p{
+    font-family: "Noto Serif", serif;
+    margin:30px;
+    font-size: 14px;
+}
+@media (max-width:1650px) {
+    .slidebar{
+        
+    }
+    
+}
